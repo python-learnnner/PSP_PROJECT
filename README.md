@@ -1,3 +1,2 @@
-Hello Everyone! This is a progress code. You can copy the code and make changes by copping the code and cloning into your VS Code. 
-please note that this is not a full code 
+Hello Everyone! This is a progress code. I had assigned task to everyone.  You can start creating auth branch
 Thank you!
