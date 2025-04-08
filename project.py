@@ -1,4 +1,4 @@
-import tkinter as gtk
+import tkinter as tk
 from tkinter import messagebox
 
 # In a real application, you'd use a database for this
