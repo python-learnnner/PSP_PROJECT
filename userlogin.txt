@@ -1,3 +1,4 @@
 users = {
     "Bibek Ale": {"password": "imusttelljesus", "email": "bibek@example.com", "security_question": "Pet's name", "security_answer": "Fluffy"}
+    "Bilash Living": {"password": "living123", "email": "bilash123@gmail.com", "security_question": "Living?", "security_answer": "Bilash"}
 }

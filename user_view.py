@@ -1,19 +1,21 @@
-import tkinter as gtk
+import tkinter as tk
 from tkinter import messagebox
 
-# In a real application, you'd use a database for this
+# This dictionary stores user data in memory
 users = {
-    "Bibek Ale": {"password": "imusttelljesus", "email": "bibek@example.com", "security_question": "Pet's name", "security_answer": "Fluffy"}
+    "Bibek Ale": {"password": "imusttelljesus",
+                  "email": "bibek@example.com",
+                  "security_question": "Pet's name",
+                  "security_answer": "Fluffy"}
 }
 
 class LoginSystem:
-    def __init__(self, root):
-        self.root = root
-        self.root.title("Login System")
-        self.root.geometry("500x400")
-        self.root.configure(bg="white")
-        
-        self.show_login_frame()
+    def __init__(self, root): #__init__: Constructor method called when creating a LoginSystem instance
+        self.root = root ## self.root = root: Stores the main window reference
+        self.root.title("Login System") # title(): Sets the window title
+        self.root.geometry("500x400") # geometry(): Sets window dimensions (width x height)
+        self.root.configure(bg="white") # configure(): Sets the background color of the window
+        self.show_login_frame() # show_login_frame(): Calls method to display the first screen
     
     def clear_frame(self):
         for widget in self.root.winfo_children():
