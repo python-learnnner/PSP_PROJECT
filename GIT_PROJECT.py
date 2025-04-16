@@ -1,7 +1,6 @@
 import tkinter as tk
 from tkinter import messagebox
 
-
 # In a real application, you'd use a database for this
 users = {
     "Bibek Ale": {"password": "imusttelljesus", "email": "bibek@example.com", "security_question": "Pet's name", "security_answer": "Fluffy"}
